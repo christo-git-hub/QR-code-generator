@@ -22,7 +22,6 @@ input {
 }
 
 #GenerateButton{
-    background-color: white;
     height: 38px;
     font-size: medium;
     padding: 7px;
@@ -34,7 +33,7 @@ input {
 }
 
 #DownloadButton {
-    background-color: white;
+   
     height: 38px;
     font-size: medium;
     padding: 7px;
@@ -55,7 +54,7 @@ input {
   100% { transform: scale(1); }
 }
 
-button.clicked {
+.clicked {
   animation: pulse 0.3s ease;
 }
 
@@ -71,4 +70,14 @@ button.clicked {
     "ELSH" 0,
     "ELXP" 0;
     margin-bottom: 5px;
+}
+
+button {
+  background-color: #2e86de;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b4f72;
 }
