@@ -1,0 +1,74 @@
+body{
+    height: 90vh;
+    background-color: #F3E2D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    width: 80vw;
+}
+
+input {
+  padding: 7px;
+  font-size: medium;
+  height: 22px;
+  width: 250px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#GenerateButton{
+    background-color: white;
+    height: 38px;
+    font-size: medium;
+    padding: 7px;
+    width: 100px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+#DownloadButton {
+    background-color: white;
+    height: 38px;
+    font-size: medium;
+    padding: 7px;
+    width: 140px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#qrCode > * {
+  display: block;
+  margin: 10px auto;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+button.clicked {
+  animation: pulse 0.3s ease;
+}
+
+.bitcount-prop-single{
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 3rem;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    margin-bottom: 5px;
+}
